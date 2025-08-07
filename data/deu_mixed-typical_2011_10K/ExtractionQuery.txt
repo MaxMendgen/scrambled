@@ -1,0 +1,4 @@
+SELECT TRIM(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(REPLACE(word, 'ä', 'ae'), 'Ä', 'Ae'), 'ö', 'oe'), 'Ö', 'Oe'), 'ü', 'ue'), 'Ü', 'Ue'), 'ß', 'ss')) AS word FROM words
+WHERE LENGTH(word) = 5
+ AND word REGEXP '^[A-Za-zÄÖÜäöüß]+$'
+INTO OUTFILE 'C:/Users/Meyer/Downloads/OUTPUT_FILES/words5.txt';
