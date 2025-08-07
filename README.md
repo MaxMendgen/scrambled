@@ -1,4 +1,5 @@
 # Scrambled! – Anagramm-Wissensspiel
+![logo](preview0.png)
 
 **2INF2 LK Q1.1 – Klausurersatzleistung**
 
@@ -6,6 +7,8 @@
 > Autor: Max Mendgen<br>
 > Sprache: Python<br>
 > GUI: Tkinter
+
+
 
 ---
 
@@ -61,3 +64,8 @@ Ziel war es auch, meine Kenntnisse in Python, Tkinter und Datenverarbeitung zu v
 - Export via `SELECT ... INTO OUTFILE` mit REGEXP-Filter für deutsche Buchstaben
 
 ---
+
+## Bilder
+
+![preview1](preview1.png)
+![preview2](preview2.png)
